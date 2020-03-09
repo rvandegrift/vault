@@ -63,7 +63,7 @@
     <div class="box is-shadowless is-fullwidth is-sideless">
       {{#if hmac}}
         <h2 class="title is-6">HMAC</h2>
-        <span><code>{{hmac}}</code></span>
+        <span><code data-test-encrypted-value="hmac">{{hmac}}</code></span>
       {{else}}
         <h2 class="title is-6">Input</h2>
         <span><code>{{input}}</code></span>
